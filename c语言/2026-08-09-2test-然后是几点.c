@@ -12,5 +12,6 @@ int main()
     int minute = t % 60;
     
     printf("%d%d", hour, minute);
+    
     return 0;
 }
