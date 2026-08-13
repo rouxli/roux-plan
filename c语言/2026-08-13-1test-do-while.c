@@ -7,15 +7,14 @@ int main()
 
     scanf("%d", &x);
 
-    n++;
-    x /= 10;
-    
-    while ( x > 0 ) {
-        n++;
+    do
+    {
         x /= 10;
-    }
-    
+        n++;
+    } while ( x > 0 );
+
     printf("%d\n", n);
 
     return 0;
 }
+    
