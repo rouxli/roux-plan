@@ -7,7 +7,7 @@ int main()
 
     int mask = 1;
     int t = x;
-    while ( x > 9 ) {
+    while ( t > 9 ) {
         t /= 10;
         mask *= 10;
     }
