@@ -20,7 +20,7 @@ int main()
                 break;
             }
         }
-        if ( isPrime == 1 ) {
+        if ( isPrime ) {
             cnt++;
             sum += i;
         }
